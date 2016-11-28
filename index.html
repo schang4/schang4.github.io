@@ -9,32 +9,50 @@ When I click on the modal-box, the modal disappears even though it is positioned
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="assets/javascript/script.js"></script>
+	<script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
 </head>
 <body>
 
-	<div id="modal-container">
-		<div id="modal-overlay">
-			<div id="modal-box">
-				<header id="modal-header">Login</header>
-				<div id="modal-content">
-					<input class="login" type="text" placeholder="Enter Username">
-					<input class="login" type="text" placeholder="Enter Password">
-				</div>
-				<footer id="modal-footer">
-					<div id="submit" class="button">Submit</div>
-					<div id="cancel" class="button">Cancel</div>
-				</footer>
-			</div>
-		</div>
-	</div>
-
+<!-- Main Page -->
 	<div id="background">
 		<div id="background-overlay"></div>
 	</div>
+	<div id="header-container">
+		<div class="button" id="gallery">Photo Gallery</div>
+		<div class="button" id="menu">Menu</div>
+	</div>
 	<div id="hero">
-		<div id="subheading">Since 1993</div>
+		<div id="subheading">Est. 1993</div>
 		<div id="heading">Ashley's Photography</div>
-		<div id="link">Login</div>
+	</div>
+
+<!-- Gallery Modal -->
+	<div id="modal-container">
+		<div id="modal-overlay">
+			<div id="modal-content">
+				<div id="modal-heading">Choose a Location!</div>
+				<div clas="grid">
+					<div class="ind-loc-container">
+						<div class="country" id="peru">Peru</div>
+						<a href="peru.html">
+							<img class="grid-item" id="peru-container" src="assets/img/peru.jpg" />
+						</a>
+					</div>
+					<div class="ind-loc-container">
+						<div class="country" id="europe">Europe</div>
+						<a href="europe.html">
+							<img class="grid-item" id="europe-container" src="assets/img/europe.jpg" />
+						</a>
+					</div>
+					<div class="ind-loc-container">
+						<div class="country" id="thailand">Thailand</div>
+						<a href="thailand.html">
+							<img class="grid-item" id="thailand-container" src="assets/img/thailand.jpg"/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </body>
