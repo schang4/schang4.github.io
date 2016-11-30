@@ -8,24 +8,24 @@ $(document).ready(function() {
 		$("#modal-container").hide();
 	});
 
-	$("#europe-image").hover(function() {
-		$("#europe").hide();
+	$("#cambodia-image").hover(function() {
+		$("#cambodia").hide();
 	});
 
-	$("#peru-image").hover(function() {
-		$("#peru").hide();
+	$("#boston-image").hover(function() {
+		$("#boston").hide();
 	});
 
 	$("#thailand-image").hover(function() {
 		$("#thailand").hide();
 	});
 
-	$("#europe-container").hover(function() {
-		$("#europe").show();
+	$("#cambodia-container").hover(function() {
+		$("#cambodia").show();
 	});
 
-	$("#peru-container").hover(function() {
-		$("#peru").show();
+	$("#boston-container").hover(function() {
+		$("#boston").show();
 	});
 
 	$("#thailand-container").hover(function() {

@@ -104,6 +104,7 @@ opacity for the photo gallery seems harsh and quick*/
 }
 
 .country {
+
 	top: 35%;
 	z-index: 110;
 	position: absolute;
@@ -113,8 +114,7 @@ opacity for the photo gallery seems harsh and quick*/
 }
 
 .grid-item {
-	width: 300px;
-	height: 300px;
+	height: 100%;
 	overflow: hidden;
 	margin: 5px;
 	float: left;
@@ -127,3 +127,53 @@ opacity for the photo gallery seems harsh and quick*/
 }
 
 /*I want to make the pictures centered if there isn't enough room to put three of them in a row*/
+
+
+/*SHOW ROOM*/
+.container {
+	position: relative;
+}
+
+.main-menu {
+	background-color: #51376E;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+}
+
+.spacer {
+	height: 50px;
+	width: 100%;
+}
+
+.color {
+	background-color: #281042;
+	height: 60px;
+	width: 100%;
+}
+
+.header {
+	background-color: #8C7AA2;
+	height: 120px;
+	margin: 50px;
+}
+
+.second-menu {
+	background-color: #6A5285;
+	height: 60px;
+}
+
+.pictures {
+	background-color: #8C7AA2;
+	height: 500px;
+}
+
+.text {
+	background-color: black;
+	height: 200px;
+	width: 40%;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
